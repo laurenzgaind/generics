@@ -7,7 +7,7 @@ using System.Drawing;
 
 namespace Generics
 {
-    class TestBuffer
+    partial class TestBuffer
     {
         public static void BoxingUnboxing()
         {
