@@ -29,6 +29,13 @@ namespace Generics
             int i = a.Get(0);
             Console.WriteLine("Das 1.Element von Buffer<int> ist: " + i);
             Buffer<Rectangle> b = new Buffer<Rectangle>();
+            b.Put(new Rectangle());
+            Rectangle r = b.Get(0);
+            Console.WriteLine("Das 1.Element von Buffer<Rectangle> ist: " + r);
+            Buffer<double> c = new Buffer<double>();
+            c.Put(3.5);
+            double d = c.Get(0);
+            Console.WriteLine("Das 1.Element von Buffer<double> ist: " + d);
         }
     }
 }
