@@ -22,7 +22,12 @@ namespace Generics
     {
         public static void Generics2()
         {
-
+            Console.WriteLine("\nAufgabe Generics 2: ... ");
+            Buffer<int> a = new Buffer<int>();
+            a.Put(3);
+            int i = a.Get(0);
+            Console.WriteLine("Das 1.Element von Buffer<int> ist: " + i);
+            Buffer<Rectangle> b = new Buffer<Rectangle>();
         }
     }
 }
