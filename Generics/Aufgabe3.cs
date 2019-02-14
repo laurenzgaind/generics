@@ -18,4 +18,11 @@ namespace Generics
             return data[index];
         }
     }
+    partial class TestBuffer
+    {
+        public static void Generics2()
+        {
+
+        }
+    }
 }
