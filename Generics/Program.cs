@@ -11,6 +11,8 @@ namespace Generics
         static void Main(string[] args)
         {
             TestBuffer.BoxingUnboxing();
+            TestBuffer.Generics1();
+            Console.ReadLine();
         }
     }
 }
